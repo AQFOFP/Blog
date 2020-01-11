@@ -4,4 +4,4 @@ from django.shortcuts import render
 # Create your views here.
 def login(request):
 
-    return JsonResponse({'code': 1, 'status': 'success'})
+    return JsonResponse({'code': 1, 'status': 'success', 'data':'helloworld'})
